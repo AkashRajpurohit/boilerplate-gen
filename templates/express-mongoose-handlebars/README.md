@@ -1,1 +1,1 @@
-## Node Express Mongoose boilerplate for your project
+## Node Express Mongoose handlebars boilerplate for your project
