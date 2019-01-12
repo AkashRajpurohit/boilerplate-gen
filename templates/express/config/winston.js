@@ -2,6 +2,14 @@ const { format, createLogger, transports, config } = require('winston')
 const { combine, timestamp, prettyPrint } = format
 const path = require('path')
 
+const fs = require('fs');
+
+// Create logs folder
+const dir = path.join(__dirname, "..", "logs")
+if(!fs.existsSync(dir)) {
+  fs.mkdirSync(dir)
+}
+
 // define the custom settings for each transport (file, console)
 const options = {
   infoFile: {

@@ -47,7 +47,7 @@ mongoose
 /* --------------------------------------------------------------------------- */
 
 // Use Routes
-app.use("/index", index)
+app.use("/", index)
 
 const port = process.env.PORT || 4000;
 
