@@ -1,29 +1,29 @@
 {
-  "name": "boilerplate-gen",
-  "version": "1.0.8",
-  "description": "generate boilerplate for project",
-  "main": "index.js",
-  "bin": {
-    "gen": "./index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AkashRajpurohit/boilerplate-gen.git"
-  },
-  "keywords": [
-    "generate",
-    "boilerplate",
-    "express",
-    "handlebars",
-    "mongoose",
-    "react",
-    "nodejs",
-    "babel",
-    "webpack"
-  ],
-  "author": "Akash Rajpurohit <akashrajpurohit.009@gmail.com> (https://akashrajpurohit.cf/)",
-  "license": "MIT",
-  "dependencies": {
-    "inquirer": "6.2.1"
-  }
+    "name": "boilerplate-gen",
+    "version": "1.0.9",
+    "description": "generate boilerplate for project",
+    "main": "index.js",
+    "bin": {
+        "gen": "./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AkashRajpurohit/boilerplate-gen.git"
+    },
+    "keywords": [
+        "generate",
+        "boilerplate",
+        "express",
+        "handlebars",
+        "mongoose",
+        "react",
+        "nodejs",
+        "babel",
+        "webpack"
+    ],
+    "author": "Akash Rajpurohit <akashrajpurohit.009@gmail.com> (https://akashwho.codes/)",
+    "license": "MIT",
+    "dependencies": {
+        "inquirer": "7.1.0"
+    }
 }

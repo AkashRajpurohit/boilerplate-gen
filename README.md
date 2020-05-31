@@ -2,8 +2,16 @@
 
 ## Installation
 
-```
+### Install globally once
+
+```bash
 npm i -g boilerplate-gen
+```
+
+### Using `npx`
+
+```bash
+npx boilerplate-gen
 ```
 
 ## Steps to generate boilerplate
@@ -13,9 +21,9 @@ npm i -g boilerplate-gen
 
 ## Choose from the choices available
 
-1. express
+### 1. express
 
-### Structure
+#### Structure
 
 ```
 ├── config
@@ -33,9 +41,9 @@ npm i -g boilerplate-gen
 └── .gitignore
 ```
 
-2. express-mongoose
+### 2. express-mongoose
 
-### Structure
+#### Structure
 
 ```
 ├── config
@@ -56,9 +64,9 @@ npm i -g boilerplate-gen
 └── .gitignore
 ```
 
-3. express-mongoose-handlebars
+### 3. express-mongoose-handlebars
 
-### Structure
+#### Structure
 
 ```
 ├── config
@@ -86,15 +94,15 @@ npm i -g boilerplate-gen
 └── .gitignore
 ```
 
-4. react-webpack-scss
+### 4. react-webpack-scss
 
-### Structure
+#### Structure
 
 ```
 ├── public
 │   ├── index.html
 │   ├── images
-│   ├── favicon.png
+│   | ├── favicon.png
 ├── src
 │   ├── components
 │   ├── styles
