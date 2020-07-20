@@ -1,7 +1,7 @@
 # Generate boilerplate for your projects
 Tired of writing the same boilerplate again for similar kinds of project? Use boilerplate-gen to bootstrap a new project quickly as possible with preloaded templates.
 
-![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103) ![Stars](https://img.shields.io/github/stars/AkashRajpurohit/boilerplate-gen) ![Visited](https://visitor-badge.glitch.me/badge?page_id=akashrajpurohit-leetcode-july.visitor-badge)
+![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103) ![Stars](https://img.shields.io/github/stars/AkashRajpurohit/boilerplate-gen) ![Visited](https://visitor-badge.laobi.icu/badge?page_id=boilerplate-gen-akash.visitor-badge)
 
 ## Installation
 
