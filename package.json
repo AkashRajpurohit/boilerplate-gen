@@ -1,6 +1,6 @@
 {
     "name": "boilerplate-gen",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "generate boilerplate for project",
     "main": "index.js",
     "bin": {
@@ -21,7 +21,7 @@
         "babel",
         "webpack"
     ],
-    "author": "Akash Rajpurohit <akashrajpurohit.009@gmail.com> (https://akashwho.codes/)",
+    "author": "Akash Rajpurohit <me@akashrajpurohit.com> (https://akashrajpurohit.com/)",
     "license": "MIT",
     "dependencies": {
         "inquirer": "7.1.0"
