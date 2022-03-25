@@ -18,9 +18,10 @@ const QUESTIONS = [
     type: 'input',
     message: 'Project name:',
     validate: function (input) {
-      if (/^([A-Za-z\-\_\d])+$/.test(input)) return true;
+      if (/^([A-Za-z\-\_\d\.])+$/.test(input)) return true;
       else return 'Project name may only include letters, numbers, underscores and hashes.';
-    }
+    },
+    default: '.',
   }
 ];
 
@@ -29,12 +30,18 @@ inquirer.prompt(QUESTIONS)
     const projectChoice = answers['project-choice'];
     const projectName = answers['project-name'];
     const templatePath = `${__dirname}/templates/${projectChoice}`;
-  
-    fs.mkdirSync(`${CURR_DIR}/${projectName}`);
+
+    if (projectName !== '.') {
+      fs.mkdirSync(`${CURR_DIR}/${projectName}`);
+    }
 
     createDirectoryContents(templatePath, projectName);
 
-    console.log(`🥳 cd into ${projectName} and type npm install 💻`)
+    if (projectName !== '.') {
+      console.log(`🥳 copied template files into ${projectName} 💻`)
+    } else {
+      console.log(`🥳 copied template files here 💻`)
+    }
 });
 
 function createDirectoryContents (templatePath, newProjectPath) {
