@@ -10,7 +10,7 @@
         "test": "mocha -w"
     },
     "keywords": [],
-    "author": "Akash Rajpurohit <hello@akashwho.codes> (https://akashwho.codes)",
+    "author": "Akash Rajpurohit <me@akashrajpurohit.com> (https://akashrajpurohit.com)",
     "license": "MIT",
     "dependencies": {
         "cors": "2.8.5",
