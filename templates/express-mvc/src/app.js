@@ -5,7 +5,7 @@ const commonMiddlewares = require('./middlewares');
 const { notFound, errorHandler } = require('./errorHandlers');
 const api = require('./api');
 
-require('./db/dbConnection');
+require('./lib/dbConnection');
 
 const app = express();
 
