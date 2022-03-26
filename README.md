@@ -198,55 +198,6 @@ npx boilerplate-gen
 }
 ```
 
-### 4. react-webpack-scss
-
-#### Structure
-
-```
-├── public
-│   ├── index.html
-│   ├── images
-│   | ├── favicon.png
-├── src
-│   ├── components
-│   ├── styles
-│   │ ├── base
-│   │ │   ├── _base.scss
-│   │ │   ├── _settings.scss
-│   │ ├── components
-│   │ ├── styles.scss
-│   ├── app.js
-├── node_modules
-├── README.md
-├── package.json
-└── .gitignore
-```
-
-#### Packages
-
-```
-"dependencies": {
-  "babel-cli": "6.26.0",
-  "babel-core": "6.26.3",
-  "babel-loader": "8.1.0",
-  "babel-plugin-transform-class-properties": "6.24.1",
-  "babel-preset-env": "1.7.0",
-  "babel-preset-react": "6.24.1",
-  "css-loader": "3.5.3",
-  "live-server": "^1.2.1",
-  "node-sass": "4.14.1",
-  "normalize.css": "8.0.1",
-  "react": "16.13.1",
-  "react-dom": "16.13.1",
-  "react-modal": "3.11.2",
-  "sass-loader": "8.0.2",
-  "style-loader": "1.2.1",
-  "validator": "13.0.0",
-  "webpack": "4.43.0",
-  "webpack-dev-server": "3.11.0"
-}
-```
-
 # 💵 Support
 > If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
 
